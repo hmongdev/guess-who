@@ -1,1 +1,7 @@
-console.log('Here are all the available people:', people);
+//document.ready
+$(ready)
+
+//ready function
+function ready(){
+    console.log(`Hey! It's working!`);
+}
