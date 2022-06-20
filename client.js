@@ -12,10 +12,7 @@ function appendDivs() {
 
     //for loop
     for (let i = 0; i < people.length; i++) {
-        console.log(people[i]);
         //append to DOM
-        $('body').append(`<img src="https://github.com/christopher-black.png?size=250" alt="Profile image of Chris"></img>`);
-        //create divs
+        $('body').append(`<img src="https://github.com/${people[i].githubUsername}.png?size=250" alt="Profile image of Chris"></img>`);
     }
-
 }
