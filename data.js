@@ -1,5 +1,4 @@
-var people = [
-  {
+const people = [{
     name: 'Dev',
     githubUsername: 'devjanaprime'
   },
@@ -26,5 +25,26 @@ var people = [
   {
     name: 'Chris',
     githubUsername: 'christopher-black'
+  },
+  // Feel free to add you and your group members to the `data.js` file -- follow the format!
+  {
+    name: 'Avery',
+    githubUsername: 'saudadetoska'
+  },
+  {
+    name: 'Maria Isabel',
+    githubUsername: 'mariaisabelg'
+  },
+  {
+    name: 'Miski',
+    githubUsername: 'miskiali'
+  },
+  {
+    name: 'Todd',
+    githubUsername: 'toddcmccoy'
+  },
+  {
+    name: 'Nate',
+    githubUsername: 'natenotermann'
   },
 ];
