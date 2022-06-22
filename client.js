@@ -1,7 +1,7 @@
 //document.ready
-$(ready)
+$(ready);
 
-//ready function 
+//ready function
 function ready() {
     appendDivs();
 }
@@ -13,6 +13,8 @@ function appendDivs() {
     //for loop
     for (let i = 0; i < people.length; i++) {
         //append to DOM
-        $('body').append(`<img src="https://github.com/${people[i].githubUsername}.png?size=250" alt="Profile image of ${people[i].name}"></img>`);
+        $('body').append(
+            `<img src="https://github.com/${people[i].githubUsername}.png?size=250" alt="Profile image of ${people[i].name}"></img>`
+        );
     }
 }
