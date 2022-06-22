@@ -1,7 +1,7 @@
 //document.ready
 $(ready)
 
-//ready function
+//ready function 
 function ready() {
     appendDivs();
 }

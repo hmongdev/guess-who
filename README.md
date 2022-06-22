@@ -13,7 +13,6 @@ On document load, append divs for each person in the people array (it comes from
 ```
 You'll need to access the property of each persons `githubUsername` property.
 
-
 ## Start the Game
 
 Prompt the player to pick one of the people by displaying a randomly selected name.
